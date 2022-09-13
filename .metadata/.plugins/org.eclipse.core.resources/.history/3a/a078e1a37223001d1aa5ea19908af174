@@ -1,0 +1,8 @@
+package com.bridgelabz.service;
+
+import com.bridgelabz.models.User;
+
+public interface IUserService {
+	
+	String addUser(User user);
+}

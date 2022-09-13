@@ -1,0 +1,9 @@
+package com.bridgelabz.sb;
+
+public class Laptop {
+	
+	private String model;
+	private String brand;
+	
+
+}

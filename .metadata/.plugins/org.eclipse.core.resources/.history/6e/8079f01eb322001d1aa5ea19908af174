@@ -1,0 +1,4 @@
+mysql.username = root
+mysql.password = Ghem29@Jan
+mysql.url = jdbc:mysql://localhost:3306/myfirstspring
+mysql.driver = com.mysql.jdbc.Driver

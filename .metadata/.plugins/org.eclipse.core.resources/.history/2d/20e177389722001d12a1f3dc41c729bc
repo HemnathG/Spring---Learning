@@ -1,0 +1,9 @@
+package com.bridgelabz.models;
+
+public class User {
+	
+	private Integer id;
+	private String name;
+	
+
+}

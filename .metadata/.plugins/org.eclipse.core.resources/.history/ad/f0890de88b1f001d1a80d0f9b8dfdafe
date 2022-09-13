@@ -1,0 +1,10 @@
+package com.bridgelabz.sb;
+
+public class Alien {
+	
+	private int aid;
+	
+		
+	}
+
+}

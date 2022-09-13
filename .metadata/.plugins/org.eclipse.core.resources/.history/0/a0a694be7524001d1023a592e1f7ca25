@@ -1,0 +1,26 @@
+package com.bridgelabz.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bridgelabz.models.User;
+import com.bridgelabz.repository.UserRepo;
+
+@Service
+public class UserService implements IUserService{
+	
+	@Autowired
+	private UserRepo userRepo;
+
+	@Override
+	public String addUser(User user) {
+		userRepo.save(user);
+		return "User Information Sucessfully added to the DataBase";
+	}
+
+	@Override
+	public String deleteUser(User user) {
+		userRepo.delete(user);
+		return "User Information Sucessfully deleted from the DataBase";
+	}
+}

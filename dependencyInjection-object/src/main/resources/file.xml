@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id = "mathCheatObjectiveValue" class="com.bridgelabz.di.MathCheat"></bean>
+
+	<bean id="student" class="com.bridgelabz.di.Student">
+		<property name="id" value="08111"></property>
+		<property name="mathCheat" ref="mathCheatObjectiveValue"></property>
+	</bean>
+
+	<bean id="studentFriend" class="com.bridgelabz.di.StudentFriend">
+		<property name="cheat" ref="mathCheatObjectiveValue"></property>
+	</bean>
+	
+	<bean id="studentFriend1" class="com.bridgelabz.di.StudentFriend1">
+		<property name="cheating" ref="mathCheatObjectiveValue"></property>
+	</bean>
+
+
+</beans>

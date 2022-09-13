@@ -1,0 +1,16 @@
+package com.bridgelabz.service;
+
+import org.springframework.stereotype.Service;
+
+import com.bridgelabz.models.User;
+
+@Service
+public class UserService implements IUserService {
+
+	@Override
+	public String addUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

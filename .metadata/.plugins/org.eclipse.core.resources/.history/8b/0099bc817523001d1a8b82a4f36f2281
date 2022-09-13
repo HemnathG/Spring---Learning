@@ -1,0 +1,11 @@
+package com.bridgelabz.service;
+
+import org.springframework.stereotype.Service;
+
+import com.bridgelabz.models.User;
+
+@Service
+public interface IUserService {
+	
+	String addUser(User user);
+}

@@ -1,0 +1,7 @@
+spring.datasource.username = root
+spring.datasource.password = Ghem29@Jan
+spring.datasource.url = jdbc:mysql://localhost:3306/myfirstspring
+spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver
+
+//This line is used for updating all the query in the 
+spring.jpa.hibernate.ddl-auto=update
